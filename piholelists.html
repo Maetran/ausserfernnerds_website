@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+
+<title>PiHole Blocklists und RegEx Listen</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: courier;;
+        background-color: powderblue;
+        font-size: 80%;
+    }
+    p {color:black;border: 1px solid red}
+    h1 {color:purple;}
+    #p01 {
+        font-size:80%;
+        text-align: right;
+        border: none
+    }
+</style>
+</head>
+<body>
+<h1>PiHole Blocklists & RegEx Listen</h1>
+<p>
+    PiHole Blocklists & RegEx Listen
+    <br><br>
+    Generell gilt zu sagen: Es müssen immer die *.txt Dateien (bzw. der Link zu den jeweiligen Seiten)
+    unter Blocklists im PiHole-Dashboard hinzugefügt werden. Wichtig: Nach dem Einfügen das Speichern
+    nicht vergessen. Je nach Modell eurer RasPi's dauert es dann einen Moment bis die listen komplett
+    eingelesen und auf Duplikate kontrolliert wurden. Eine Wartezeit von bis zu 1Minute ist zwar lang,
+    aber nicht ungewöhnlich.
+    <table border="3" frame="void">
+        <thead>
+        <tr>
+            <th>Art (Link oder Regex)</th>
+            <th>Beschreibung</th>
+            <th>Link zum Filter</th>
+            <th>Gemeldet von</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr></tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>YouTube Ads Blocklist (Wichtig, Ads in Videos werden NICHT geblockt, technisch derzeit nicht machbar)</td>
+          <td>https://raw.githubusercontent.com/anudeepND/youtubeadsblacklist/master/domainlist.txt</td>
+          <td>Schamanimani</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>Gigantische Liste mit über 3 Mio.(!!!) Blockingeinträgen</td>
+          <td>https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CombinedBlacklists/CombinedBlackLists.txt</td>
+          <td>Schamanimani</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>Energized Blocklist</td>
+          <td>https://block.energized.pro/unified/formats/hosts.txt</td>
+          <td>Schamanimani</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>Cryptomine</td>
+          <td>https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/cryptomine.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>Tracking Blocker</td>
+          <td>https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>GoogleByeAds (Google Werbung)</td>
+          <td>https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>NoTracking List</td>
+          <td>https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>NoTracking List</td>
+          <td>https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>Block EU Cookie Alerts</td>
+          <td>https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Block-EU-Cookie-Shit-List.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>Simple Ad Blocker</td>
+          <td>https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>Simple Malvertising (was auch immer das blockt ;) )</td>
+          <td>https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>oisd.nl (sehr grosse Blockliste)</td>
+          <td>https://dbl.oisd.nl/</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu *.txt</td>
+          <td>Diverse Ad Servers</td>
+          <td>https://hosts-file.net/ad_servers.txt</td>
+          <td>Error.</td>
+        </tr>
+        <tr>
+          <td>Link zu Sammlung</td>
+          <td>1. Grosse Blocklist-Listensammlung</td>
+          <td>https://firebog.net</td>
+          <td>Bonsi</td>
+        </tr>
+        <tr>
+          <td>Link zu Sammlung</td>
+          <td>2. Grosse Listensammlung</td>
+          <td>https://github.com/AdAway/AdAway/wiki/HostsSources</td>
+          <td>Ali</td>
+        </tr>
+        <tr>
+          <td>Link zu Sammlung</td>
+          <td>Sammlung von hBlock</td>
+          <td>https://hblock.molinero.dev/</td>
+          <td>Ali</td>
+        </tr>
+        <tr>
+          <td>Link zu Sammlung</td>
+          <td>Weitere Sammlung von hBlock auf GitHub (weiter unten die URL's)</td>
+          <td>https://github.com/hectorm/hblock</td>
+          <td>Ali</td>
+        </tr>
+
+        </tbody>
+    </table>
+</p><br><br>
+
+<p id="p01"> Ihr wollt mir noch Listen melden? Macht das hier: <a href="mailto:maetran@ausserfernnerds.me"> Maetran aka Mani</a></p><br><br>
+
+</body>
+</html>
