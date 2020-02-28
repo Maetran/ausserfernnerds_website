@@ -1,0 +1,106 @@
+{
+  "Link zu *.txt" : [
+    {
+      "descr" : "YouTube Ads Blocklist (Wichtig: Ads in Videos werden NICHT geblockt. Technisch derzeit nicht machbar)",
+      "link" : "https://raw.githubusercontent.com/anudeepND/youtubeadsblacklist/master/domainlist.txt",
+      "submit" : "Schamanimani"
+    },
+    {
+      "descr" : "Gigantische Liste mit über 3 Mio.(!!!) Blockingeinträgen",
+      "link" : "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CombinedBlacklists/CombinedBlackLists.txt",
+      "submit" : "Schamanimani"
+    },
+    {
+      "descr" : "Energized Blocklist",
+      "link" : "https://block.energized.pro/unified/formats/hosts.txt",
+      "submit" : "Schamanimani"
+    },
+    {
+      "descr" : "Cryptomine",
+      "link" : "https://raw.githubusercontent.com/Akamaru/Pi-Hole-Lists/master/cryptomine.txt",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Tracking Blocker",
+      "link" : "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "GoogleByeAds (Google Werbung)",
+      "link" : "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "NoTrackingList",
+      "link" : "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Block EU Cookie Alerts",
+      "link" : "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/Block-EU-Cookie-Shit-List.txt",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Simple Ad Blocker",
+      "link" : "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Simple Malvertising (blockt Malware)",
+      "link" : "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "oisd.nl (sehr grosse Blockliste)",
+      "link" : "https://dbl.oisd.nl/",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Diverse Ad Server",
+      "link" : "https://hosts-file.net/ad_servers.txt",
+      "submit" : "Error."
+    }
+  ],
+  "Link zu Sammlung" : [
+    {
+      "descr" : "1. Grosse Blocklist-Listensammlung",
+      "link" : "https://firebog.net",
+      "submit" : "Bonsi"
+    },
+    {
+      "descr" : "2. Grosse Listensammlung",
+      "link" : "https://github.com/AdAway/AdAway/wiki/HostsSources",
+      "submit" : "Ali"
+    },
+    {
+      "descr" : "Sammlung von hBlock",
+      "link" : "https://hblock.molinero.dev/",
+      "submit" : "Ali"
+    },
+    {
+      "descr" : "Weitere Sammlung von hBlock auf GitHub (weiter unten die URL's)",
+      "link" : "https://github.com/hectorm/hblock",
+      "submit" : "Ali"
+    }
+  ],
+  "Regex" : [
+    {
+      "descr" : "Regex VorschlÃ¤ge von Error.",
+      "link" : "^(.+[_.-])?ad[sxv]?[0-9]*[_.-]
+                ^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
+                ^(.+[_.-])?telemetry[_.-]
+                ^(www[0-9]*\.)?xn--
+                ^adim(age|g)s?[0-9]*[_.-]
+                ^adtrack(er|ing)?[0-9]*[_.-]
+                ^advert(s|is(ing|ements?))?[0-9]*[_.-]
+                ^aff(iliat(es?|ion))?[_.-]
+                ^analytics?[_.-]
+                ^banners?[_.-]
+                ^beacons?[0-9]*[_.-]
+                ^count(ers?)?[0-9]*[_.-]
+                ^mads\.^pixels?[-.]
+                ^track(ers?|ing)?[0-9]*[_.-]",
+      "submit" : "Error."
+    }
+  ]
+}
