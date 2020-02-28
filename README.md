@@ -1,2 +1,2 @@
 # ausserfernnerds_website
-refinement of webpage
+website for pihole blocklists and other nerdy stuff
