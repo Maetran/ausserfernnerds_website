@@ -153,11 +153,6 @@
       "descr" : "Regex Googlevideo 2",
       "link" : "^(www[0-9]*\\.)?xn--",
       "submit" : "Schamanimani"
-    },
-    {
-      "descr" : "Regex Adserver",
-      "link" : "^(.+[_.-])?ad[sxv]?[0-9]*[_.-]",
-      "submit" : "Schamanimani"
     }
   ]
 }
