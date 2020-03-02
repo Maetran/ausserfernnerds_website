@@ -85,62 +85,62 @@
   ],
   "Regex" : [
     {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Adserver allgemein",
       "link" : "^(.+[_.-])?ad[sxv]?[0-9]*[_.-]",
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Adserver allgemein 2",
       "link" : "^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]",
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Vorschläge von Error.",
-      "link" : "^(.+[_.-])?telemetry[_.-]",
-      "submit" : "Error."
-    },
-    {
-      "descr" : "Regex Vorschläge von Error.",
-      "link" : "^adim(age|g)s?[0-9]*[_.-]",
-      "submit" : "Error."
-    },
-    {
-      "descr" : "Regex Vorschläge von Error.",
-      "link" : "^adtrack(er|ing)?[0-9]*[_.-]",
-      "submit" : "Error."
-    },
-    {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Adserver allgemein 3",
       "link" : "^advert(s|is(ing|ements?))?[0-9]*[_.-]",
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Telemetrie",
+      "link" : "^(.+[_.-])?telemetry[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Werbebilder",
+      "link" : "^adim(age|g)s?[0-9]*[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Werbetracker",
+      "link" : "^adtrack(er|ing)?[0-9]*[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Diverse",
       "link" : "^aff(iliat(es?|ion))?[_.-]",
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Analysetools",
       "link" : "^analytics?[_.-]",
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Werbebanner",
       "link" : "^banners?[_.-]",
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Beacons",
       "link" : "^beacons?[0-9]*[_.-]",
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Counter",
       "link" : "^count(ers?)?[0-9]*[_.-]",
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Vorschläge von Error.",
+      "descr" : "Regex Tracker",
       "link" : "^track(ers?|ing)?[0-9]*[_.-]",
       "submit" : "Error."
     }
