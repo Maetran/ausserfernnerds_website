@@ -101,11 +101,6 @@
     },
     {
       "descr" : "Regex Vorschläge von Error.",
-      "link" : "^(www[0-9]*\.)?xn--",
-      "submit" : "Error."
-    },
-    {
-      "descr" : "Regex Vorschläge von Error.",
       "link" : "^adim(age|g)s?[0-9]*[_.-]",
       "submit" : "Error."
     },
@@ -142,11 +137,6 @@
     {
       "descr" : "Regex Vorschläge von Error.",
       "link" : "^count(ers?)?[0-9]*[_.-]",
-      "submit" : "Error."
-    },
-    {
-      "descr" : "Regex Vorschläge von Error.",
-      "link" : "^mads\.^pixels?[-.]",
       "submit" : "Error."
     },
     {
