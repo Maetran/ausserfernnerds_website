@@ -85,7 +85,7 @@
   ],
   "Regex" : [
     {
-      "descr" : "Regex VorschlÃ¤ge von Error.",
+      "descr" : "Regex Vorschläge von Error.",
       "link" : "^(.+[_.-])?ad[sxv]?[0-9]*[_.-]",
       "submit" : "Error."
     },
