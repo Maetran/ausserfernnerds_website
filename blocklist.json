@@ -88,6 +88,71 @@
       "descr" : "Regex VorschlÃ¤ge von Error.",
       "link" : "^(.+[_.-])?ad[sxv]?[0-9]*[_.-]",
       "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^(.+[_.-])?telemetry[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^(www[0-9]*\.)?xn--",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^adim(age|g)s?[0-9]*[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^adtrack(er|ing)?[0-9]*[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^advert(s|is(ing|ements?))?[0-9]*[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^aff(iliat(es?|ion))?[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^analytics?[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^banners?[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^beacons?[0-9]*[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^count(ers?)?[0-9]*[_.-]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^mads\.^pixels?[-.]",
+      "submit" : "Error."
+    },
+    {
+      "descr" : "Regex Vorschläge von Error.",
+      "link" : "^track(ers?|ing)?[0-9]*[_.-]",
+      "submit" : "Error."
     }
   ]
 }
