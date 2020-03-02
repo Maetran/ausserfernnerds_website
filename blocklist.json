@@ -145,8 +145,18 @@
       "submit" : "Error."
     },
     {
-      "descr" : "Regex Tracker",
+      "descr" : "Regex Googlevideo",
       "link" : "^r[0-9]*([-]{1,3}|.)sn-[a-z0-9]{4,}-[a-z0-9]{4,}\\.googlevideo",
+      "submit" : "Schamanimani"
+    },
+    {
+      "descr" : "Regex Googlevideo 2",
+      "link" : "^(www[0-9]*\\.)?xn--",
+      "submit" : "Schamanimani"
+    },
+    {
+      "descr" : "Regex Adserver",
+      "link" : "^(.+[_.-])?ad[sxv]?[0-9]*[_.-]",
       "submit" : "Schamanimani"
     }
   ]
