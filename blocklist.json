@@ -59,6 +59,11 @@
       "descr" : "Diverse Ad Server",
       "link" : "https://hosts-file.net/ad_servers.txt",
       "submit" : "Error."
+    },
+    {
+      "descr" : "MVPS Host List",
+      "link" : "http://winhelp2002.mvps.org/hosts.txt",
+      "submit" : "Enner"
     }
   ],
   "Link zu Sammlung" : [
