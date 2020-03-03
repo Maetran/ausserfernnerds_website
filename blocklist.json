@@ -91,6 +91,11 @@
       "descr" : "Weitere Sammlung von hBlock auf GitHub (weiter unten die URL's)",
       "link" : "https://github.com/hectorm/hblock",
       "submit" : "Ali"
+    },
+    {
+      "descr" : "Der PC Fuchs, tolle Seite mit vielen Erklärungen",
+      "link" : "https://der-pcfuchs.de/big-pi-hole-blocklist/",
+      "submit" : "Enner"
     }
   ],
   "Regex" : [
