@@ -62,18 +62,16 @@
   <script>
     const container = $('#mycontainer');
     $.getJSON('https://raw.githubusercontent.com/Maetran/ausserfernnerds_website/master/blocklist.json', (data) => {
-    console.log(data);
       $.each(data, group => {
         data[group].forEach((item) => {
-          console.log(item);
-            container.append(`<tr>
-              <td>${group}</td>
-              <td>${item.descr}</td>
-              <td>${item.link}</td>
-              <td>${item.submit}</td>
-            </tr>`);
-          });
+          container.append(`<tr>
+            <td>${group}</td>
+            <td>${item.descr}</td>
+            <td>${item.link}</td>
+            <td>${item.submit}</td>
+        </tr>`);
       });
+    });
   });
   </script>
 
