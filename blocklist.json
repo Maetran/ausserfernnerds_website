@@ -64,6 +64,11 @@
       "descr" : "MVPS Host List",
       "link" : "http://winhelp2002.mvps.org/hosts.txt",
       "submit" : "Enner"
+    },
+    {
+      "descr" : "Phishing Army (Phishing-Sites)",
+      "link" : "https://phishing.army/download/phishing_army_blocklist.txt",
+      "submit" : "Enner"
     }
   ],
   "Link zu Sammlung" : [
