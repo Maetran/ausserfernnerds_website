@@ -62,7 +62,6 @@
   <script>
     const container = $('#mycontainer');
     $.getJSON('blocklist.json', (data) => {
-    // $.getJSON('https://raw.githubusercontent.com/Maetran/ausserfernnerds_website/master/blocklist.json', (data) => {
       $.each(data, group => {
         data[group].forEach((item) => {
           container.append(`<tr>
