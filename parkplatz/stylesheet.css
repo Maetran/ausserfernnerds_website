@@ -2,7 +2,7 @@ body {
   background-color: white
 }
 
-h1 {
+/* h1 {
   text-align: left;
 }
 
@@ -16,13 +16,11 @@ h3 {
 
 p {
   text-align: left;
-}
-
-/* #karte {
-  align: right;
-  text-align: center;
-  margin: auto;
 } */
+
+iframe {
+  vertical-align: middle;
+}
 
 /* Style the navbar */
 #navbar {
