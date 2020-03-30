@@ -2,11 +2,6 @@ body {
   background-color: white
 }
 
-#heading {
-  text-align: center;
-  color: blue
-}
-
 h1 {
   text-align: left;
 }
@@ -23,9 +18,11 @@ p {
   text-align: left;
 }
 
-#map {
-  align: right
-}
+/* #karte {
+  align: right;
+  text-align: center;
+  margin: auto;
+} */
 
 /* Style the navbar */
 #navbar {

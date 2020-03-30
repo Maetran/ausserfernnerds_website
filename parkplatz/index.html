@@ -34,14 +34,8 @@
     </div>
     <script>
       window.onscroll = function() {myFunction()};
-
-      // Get the navbar
       var navbar = document.getElementById("navbar");
-
-      // Get the offset position of the navbar
       var sticky = navbar.offsetTop;
-
-      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
       function myFunction() {
         if (window.pageYOffset >= sticky) {
           navbar.classList.add("sticky")
@@ -51,10 +45,12 @@
         }
       }
     </script>
-    <iframe id="map" align="right" width="450" height="400" id="gmap_canvas"
-      src="https://maps.google.com/maps?q=FPHP%2BQ4%20Gemeinde%20Reutte%2C%20%C3%96sterreich&t=&z=15&ie=UTF8&iwloc=&output=embed"
-      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-    <div id="heading">
+    <div id="karte">
+      <p align="center"><br><br><br>
+      <iframe name="Standort" align="right" width="450" height="400" id="gmap_canvas" scrolling="auto"
+        src="https://maps.google.com/maps?q=FPHP%2BQ4%20Gemeinde%20Reutte%2C%20%C3%96sterreich&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </p>
     </div>
     <div id="inhalt">
       <h1>
