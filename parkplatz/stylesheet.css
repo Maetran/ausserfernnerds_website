@@ -7,6 +7,26 @@ body {
   color: blue
 }
 
+h1 {
+  text-align: left;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+#map {
+  align: right
+}
+
 /* Style the navbar */
 #navbar {
   overflow: hidden;
