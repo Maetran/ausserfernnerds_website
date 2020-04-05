@@ -2,6 +2,12 @@ body {
   background-color: white
 }
 
+.rightbar {
+  position: absolute;
+  right: 120px;
+  width: 110px;
+}
+
 /* h1 {
   text-align: left;
 }
