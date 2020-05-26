@@ -168,6 +168,11 @@
       "descr" : "Regex Googlevideo 2",
       "link" : "^(www[0-9]*\\.)?xn--",
       "submit" : "Schamanimani"
+    },
+    {
+      "descr" : "Regex Adserver",
+      "link" : "^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]",
+      "submit" : "Formularübermittlung"
     }
   ]
 }
