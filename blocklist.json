@@ -96,6 +96,11 @@
       "descr" : "Der PC Fuchs, tolle Seite mit vielen Erklärungen",
       "link" : "https://der-pcfuchs.de/big-pi-hole-blocklist/",
       "submit" : "Enner"
+    },
+    {
+      "descr" : "Technoy.de, umfangreiche Sammlung mit Erklärungen",
+      "link" : "https://www.technoy.de/lists/blocklists-fuer-pihole/",
+      "submit" : "Formularübermittlung"
     }
   ],
   "Regex" : [
