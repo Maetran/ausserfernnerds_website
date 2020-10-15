@@ -101,6 +101,11 @@
       "descr" : "Technoy.de, umfangreiche Sammlung mit Erklärungen",
       "link" : "https://www.technoy.de/lists/blocklists-fuer-pihole/",
       "submit" : "Formularübermittlung"
+    },
+    {
+      "descr" : "Youtube Ad Blocklist",
+      "link" : "https://www.sunshine.it/blacklist.txt",
+      "submit" : "Formularübermittlung"
     }
   ],
   "Regex" : [
