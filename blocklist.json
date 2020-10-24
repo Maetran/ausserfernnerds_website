@@ -69,6 +69,11 @@
       "descr" : "Phishing Army (Phishing-Sites)",
       "link" : "https://phishing.army/download/phishing_army_blocklist.txt",
       "submit" : "Enner"
+    },
+    {
+      "descr" : "Emotet Blocker (Blockt Code Nachladen)",
+      "link" : "https://raw.githubusercontent.com/ihgalis/pihole_collection/master/pihole_emotet_clean.txt",
+      "submit" : "Andre"
     }
   ],
   "Link zu Sammlung" : [
