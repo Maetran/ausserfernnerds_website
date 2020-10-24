@@ -71,7 +71,12 @@
       "submit" : "Enner"
     },
     {
-      "descr" : "Emotet Blocker (Blockt Code Nachladen)",
+      "descr" : "YouTube Ad Blocklist",
+      "link" : "https://www.sunshine.it/blacklist.txt",
+      "submit" : "Formularübermittlung"
+    },
+    {
+      "descr" : "Emotet Blocker (Blockt Nachladen von Code)",
       "link" : "https://raw.githubusercontent.com/ihgalis/pihole_collection/master/pihole_emotet_clean.txt",
       "submit" : "Andre"
     }
@@ -101,6 +106,11 @@
       "descr" : "Der PC Fuchs, tolle Seite mit vielen Erklärungen",
       "link" : "https://der-pcfuchs.de/big-pi-hole-blocklist/",
       "submit" : "Enner"
+    },
+    {
+      "descr" : "Technoy.de, umfangreiche Sammlung mit Erklärungen",
+      "link" : "https://www.technoy.de/lists/blocklists-fuer-pihole/",
+      "submit" : "Formularübermittlung"
     }
   ],
   "Regex" : [
