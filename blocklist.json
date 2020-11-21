@@ -188,6 +188,11 @@
       "descr" : "Regex Adserver",
       "link" : "^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]",
       "submit" : "Formularübermittlung"
+    },
+    {
+      "descr" : "Regex",
+      "link" : "^((alt)[0-9](-))?mtalk.google.com$",
+      "submit" : "Formularübermittlung"
     }
   ]
 }
