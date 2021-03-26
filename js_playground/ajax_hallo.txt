@@ -1,0 +1,3 @@
+TXT Datei: Hallo AJAX
+\<br>Das geht auch.
+\<p>Wer denkt sich das aus?</p>

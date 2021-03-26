@@ -1,0 +1,47 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="utf-8">
+        <title>Lernseite</title>
+        <script src="lernscript.js"></script>
+        <link rel="stylesheet" href="lernstyle.css">
+        <body style="background-color:rgb(128, 188, 207)"></style>
+    </head>
+<!-- http://www.theisweb.de/js3/form_check.php -->
+    <body>
+       <div id="idMenu1" style="top:20px; left:20px">Menu 1</div>
+       <div id="idMenu2" style="top:20px; left: 220px">Menu 2</div>
+       <div id="idUnter1" class="untermenu" style="top:50px; left:20px">
+            <a href="#">Untermenü 1 A</a><br>
+            <a href="#">Untermenü 1 B</a><br>
+            <a href="#">Untermenü 1 C</a><br>
+            <a href="#">Untermenü 1 A</a><br>
+            <a href="#">Untermenü 1 B</a><br>
+            <a href="#">Untermenü 1 C</a>
+        </div>
+        <div id="idUnter2" class="untermenu" style="top:50px; left:220px">
+            <a href="#">Untermenü 2 A</a><br>
+            <a href="#">Untermenü 2 B</a><br>
+            <a href="#">Untermenü 2 C</a>
+        </div>>
+        <script>
+            document.getElementById("idMenu1").
+                addEventListener("mouseover", function() { ein(1); } );
+            document.getElementById("idMenu1").
+                addEventListener("mouseout", function() { aus(1); } );
+            document.getElementById("idMenu2").
+                addEventListener("mouseover", function() { ein(2); } );
+            document.getElementById("idMenu2").
+                addEventListener("mouseout", function() { aus(2); } );
+            
+            document.getElementById("idUnter1").
+                addEventListener("mouseover", function() { ein(1); } );
+            document.getElementById("idUnter1").
+                addEventListener("mouseout", function() { aus(1); } );
+            document.getElementById("idUnter2").
+                addEventListener("mouseover", function() { ein(2); } );
+            document.getElementById("idUnter2").
+                addEventListener("mouseout", function() { aus(2); } );
+
+        </script>
+    </body>
+</html>

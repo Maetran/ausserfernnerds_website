@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sammlung>
+    <fahrzeug>
+        <farbe>Rot</farbe>
+        <geschwindigkeit>50</geschwindigkeit>
+        <leistung hubraum="1600" zylinder="4">76.2</leistung>
+    </fahrzeug>
+    <fahrzeug>
+        <farbe>Gelb</farbe>
+        <geschwindigkeit>65</geschwindigkeit>
+        <leistung hubraum="1800" zylinder="4">85.0</leistung>
+    </fahrzeug>
+</sammlung>

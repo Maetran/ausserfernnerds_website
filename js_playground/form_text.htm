@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Formulare, Textfelder</title>
+   <script>
+      function pruefen(idFeld)
+      {
+         var idMeldung = idFeld + "Meldung";
+         var fehler = false;
+         if(document.getElementById(idFeld).value == "")
+         {
+            document.getElementById(idMeldung).firstChild.nodeValue =
+               "(Bitte etwas eintragen)";
+            fehler = true;
+         }
+         else
+            document.getElementById(idMeldung).firstChild.nodeValue = "";
+         return fehler;
+      }
+
+      function senden(e)
+      {
+         var pn = pruefen("idNachname");
+         var pv = pruefen("idVorname");
+         if(pn || pv)
+         {
+            e.preventDefault();
+            return false;
+         }
+         else
+            return true;
+      }
+
+      function aendern()
+      {
+         document.getElementById("idNachname").value = "Wagner";
+         document.getElementById("idVorname").value = "Peter";
+         document.getElementById("idBem").value = "Zeile 1\nZeile 2";
+      }
+   </script>
+</head>
+<body>
+   <form id="idForm" method="post" action="form_text.php">
+      <p><input id="idNachname" size="30" name="nn" value="Wagner">
+            Nachname (*) <span id="idNachnameMeldung"> </span></p>
+      <p><input id="idVorname" size="30" name="vn"> Vorname  (*)
+            <span id="idVornameMeldung"> </span></p>
+      <p><textarea rows="3" cols="25" id="idBem"
+               name="bem">Hier steht etwas</textarea> Bemerkung</p>
+      <p><input id="idPasswort" size="30" name="pw"
+                  type="password"> Passwort</p>
+      <p><input id="idAendern" type="button" value="Formular ändern"></p>
+      <p><input type="submit"><input type="reset"></p>
+      <p>(*) = Pflichtfeld</p>
+   </form>
+   <script>
+      document.getElementById("idForm")
+         .addEventListener("submit", function(e) {return senden(e);} );
+      document.getElementById("idAendern")
+         .addEventListener("click", aendern );
+   </script>
+</body>
+</html>

@@ -1,11 +1,21 @@
+html {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 body {
-  background-color: white
+  top: 50px;
+  left: 10px;
+  background-color: white;
+  text-align: left;
 }
 
 .rightbar {
   position: absolute;
-  right: 120px;
-  width: 110px;
+  top: 50px;
+  right: 0px;
+  width: 50px;
+  z-index: inherit;
 }
 
 /* h1 {

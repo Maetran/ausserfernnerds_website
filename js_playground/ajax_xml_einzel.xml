@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fahrzeug>
+    <farbe>Rot</farbe>
+    <geschwindigkeit>50</geschwindigkeit>
+    <leistung hubraum="1600" zylinder="4">76.2</leistung>
+</fahrzeug>

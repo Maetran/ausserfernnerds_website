@@ -1,0 +1,30 @@
+div
+{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    font-size: 14pt;
+    font-family: Arial;
+    padding: 5px;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+    background-color: #f0f0f0;
+}
+
+.untermenu
+{
+    visibility: hidden;
+    height: 132px;
+    border-top-width: 0px;
+}
+
+a:link
+{
+    color:#000000;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: #d0d0d0
+}

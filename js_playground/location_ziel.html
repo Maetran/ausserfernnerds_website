@@ -1,0 +1,23 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="utf-8">
+        <title>Location Ziel</title>
+        <!-- <script src="./number.js"></script> -->
+        <!-- <script src="./date.js"></script> -->
+        <script src="./lernscript.js"></script>
+        <body style="background-color:rgb(150, 207, 128)"></style>
+        <script>
+            document.write("href: " + location.href + "<br>");
+            document.write("search: " + location.search + "<br>");
+            var suchfeld = location.search.split("&");
+            document.write("<br>");
+            document.write("Suchfeld, ohne &: " +(suchfeld) + "<br>");
+            for(let i=0; i<suchfeld.length; i++)
+            {
+                if(i==0) suchfeld[0] = suchfeld[0].substr(1);
+                let teile = suchfeld[i].split("=");
+                document.write(teile[0] + ". " + teile[1] + "<br>");
+            }
+        </script>
+        <p><a id="id Ende">Anker Ende</a></p>
+    </head>

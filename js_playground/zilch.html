@@ -1,0 +1,40 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zilch</title>
+        <script src="zilch.js"></script>
+        <link rel="stylesheet" href="stylesheet_zilch.css">
+    </head>
+    <body onload="rollUnholdDice(1)">        <!--roll all dice on load once and add values to the id's-->
+        <div class="upperStuff">
+            <div class="containerLeft" onClick="analyze()">
+                <p class="output" id="zufallsWurf">&nbsp;</p>
+                <div id="diceContainer" class="allDice">
+                    <img class="noHold" id="wuerfelEins" onClick="holdUnhold(`wuerfelEins`)" src="one.png" alt="wuerfel1"><br>
+                    <img class="noHold" id="wuerfelZwei" onClick="holdUnhold(`wuerfelZwei`)" src="two.png" alt="wuerfel2"><br>
+                    <img class="noHold" id="wuerfelDrei" onClick="holdUnhold(`wuerfelDrei`)" src="three.png" alt="wuerfel3"><br>
+                    <img class="noHold" id="wuerfelVier" onClick="holdUnhold(`wuerfelVier`)" src="four.png" alt="wuerfel4"><br>
+                    <img class="noHold" id="wuerfelFuenf" onClick="holdUnhold(`wuerfelFuenf`)" src="five.png" alt="wuerfel5"><br>
+                    <img class="noHold" id="wuerfelSechs" onClick="holdUnhold(`wuerfelSechs`)" src="six.png" alt="wuerfel6">                
+                </div>
+            </div>
+            <div class="containerMidLeft">
+                <input id="knopf2" type="button" value="Würfeln"><br>
+                <input id="knopf4" type="button" value="Anschreiben"><br>
+                <input id="knopf5" type="button" value="Zilch">
+            </div>
+            <div class="containerMidRight">
+                <p>Du hast in diesem Durchgang <br><b id="punkteAnzeige">0</b><br>Punkte gewürfelt.</p>
+            </div>
+            <div class="containerRight">
+                <p>Du hast aktuell <br><b id="punkteTotal">0</b><br>Punkte total.</p>
+            </div>
+        </div>
+    </body>
+    <script> // Eventlistener
+        const diceDict = {1:"one.png", 2:"two.png", 3:"three.png", 4:"four.png", 5:"five.png", 6:"six.png",};
+        document.getElementById("knopf2").addEventListener("click", rollUnholdDice);
+        document.getElementById("knopf4").addEventListener("click", bankPoints);
+        document.getElementById("knopf5").addEventListener("click", zilch);
+    </script>
+</html>
