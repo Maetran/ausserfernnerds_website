@@ -37,7 +37,7 @@ function resetClassesNoHold()               // resets all dice classes to "noHol
     {
         document.getElementById(`wuerfel${wuerfelIds[i]}`).className = "noHold";
     }
-    document.getElementById("punkteAnzeige").innerHTML = 0;
+    document.getElementById("punkteAnzeige").innerHTML = 0; 
 }
 
 function rollUnholdDice(x)                  // function called by body.onload and eventlistener to reroll all not-checked dice ("noHold")
