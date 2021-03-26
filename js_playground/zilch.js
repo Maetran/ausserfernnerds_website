@@ -1,4 +1,4 @@
-function bilder(x)                          // provices link to the pictures needed to display
+function bilder(x)                        // provices link to the pictures needed to display
 {
     switch(x)
     {
