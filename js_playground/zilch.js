@@ -44,7 +44,6 @@ function rollUnholdDice(x)                  // function called by body.onload an
 {
     const holdDice = Array.from(document.getElementsByClassName("hold"));
     var unholdDice = document.getElementsByClassName("noHold");
-
     if(x==1)                                //call during body onload to give a random first roll
     {
         sessionStorage.setItem("moment", 0);
