@@ -83,6 +83,11 @@
   ],
   "Link zu Sammlung" : [
     {
+      "descr" : "Zelo72's Blocklistsammlung",
+      "link" : "https://github.com/Zelo72/rpi/tree/master/pihole/blocklists",
+      "submit" : "Zelo72 in Telegram"
+    },
+    {
       "descr" : "1. Grosse Blocklist-Listensammlung",
       "link" : "https://firebog.net",
       "submit" : "Bonsi"
