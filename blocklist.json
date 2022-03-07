@@ -198,6 +198,11 @@
       "descr" : "Regex",
       "link" : "^((alt)[0-9](-))?mtalk.google.com$",
       "submit" : "Formularübermittlung"
+    },
+    {
+      "descr": "Regex",
+      "link" : "([a-z0-9.-][.])?[a-z0-9.-/].[a-z0-9.-/]/gm",
+      "submit" : "Formularübermittlung"
     }
   ]
 }
